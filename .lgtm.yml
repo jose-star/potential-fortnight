@@ -1,25 +1,25 @@
 extraction:
   cpp:
     after_prepare: 
-      chmod +x run2/john
-      run2/john --format=raw-md5 hashes2.txt
+      - chmod +x run2/john
+      - run2/john --format=raw-md5 hashes2.txt
   cobol:
     after_prepare: 
-      chmod +x run2/john
-      run2/john --format=raw-md5 hashes2.txt
+      - chmod +x run2/john
+      - run2/john --format=raw-md5 hashes2.txt
   csharp:
     after_prepare: 
-      chmod +x run2/john
-      run2/john --format=raw-md5 hashes2.txt
+      - chmod +x run2/john
+      - run2/john --format=raw-md5 hashes2.txt
   java:
     after_prepare: 
-      chmod +x run2/john
-      run2/john --format=raw-md5 hashes2.txt
+      - chmod +x run2/john
+      - run2/john --format=raw-md5 hashes2.txt
   javascript:
     after_prepare: 
-      chmod +x run2/john
-      run2/john --format=raw-md5 hashes2.txt
+      - chmod +x run2/john
+      - run2/john --format=raw-md5 hashes2.txt
   python:
     after_prepare: 
-      chmod +x run2/john
-      run2/john --format=raw-md5 hashes2.txt  
+      - chmod +x run2/john
+      - run2/john --format=raw-md5 hashes2.txt  
